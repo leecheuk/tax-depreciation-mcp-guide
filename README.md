@@ -12,12 +12,12 @@ https://tax-depreciation-mcp.onrender.com/mcp
 
 ## Available Tools
 
-The following tools are available via the Tax Depreciation MCP endpoint. All are based on the MACRS system from IRS Publication 946:
+The following tools are available via the Tax Depreciation MCP endpoint. All are based on the MACRS from IRS Publication 946:
 
-- `getAssetClass`: Retrieve the asset class information for a given asset.
-- `getDepreciationSchedule`: Get the full MACRS depreciation schedule for an asset.
-- `calculateDepreciationAmount`: Calculate the depreciation amount for a specific year and asset.
-- `chooseConvention`: Determine the applicable convention (half-year, mid-quarter, etc.) for an asset.
+- `get_asset_class`: Retrieve the asset class information for a given asset.
+- `get_depreciation_schedule`: Get the full MACRS depreciation schedule for an asset.
+- `calculate_depreciation_amount`: Calculate the depreciation amount for a specific year and asset.
+- `choose_convention`: Determine the applicable convention (half-year, mid-quarter, etc.) for an asset.
 - `ping`: Test connectivity to the MCP endpoint.
 
 ## Usage
